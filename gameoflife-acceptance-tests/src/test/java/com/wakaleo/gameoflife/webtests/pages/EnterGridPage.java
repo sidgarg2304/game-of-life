@@ -18,6 +18,7 @@ public class EnterGridPage extends GameOfLifePage {
 
     public void clickOnGoButton() {
         clickOn(goButton);
+        System.out.println("test");
     }
 
     public void clickOnCellAt(int row, int column) {
